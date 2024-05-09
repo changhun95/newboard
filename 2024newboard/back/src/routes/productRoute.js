@@ -23,10 +23,7 @@ productRouter.get("/", async (req, res) => {
       findArgs[key] = req.query.filters[key];
     }
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> 056b5e512fc545880e5ef2cca9ff5ecb1a61c6fa
   console.log(findArgs);
 
   try {

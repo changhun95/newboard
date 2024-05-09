@@ -1,10 +1,6 @@
 import React from "react";
 
-<<<<<<< HEAD
 function CheckBox({ continents, checkedContinents, onFilters }) {
-=======
-function CheckBox({continents, checkedContinents, onFilters}) {
->>>>>>> 056b5e512fc545880e5ef2cca9ff5ecb1a61c6fa
   const handelToggle = (continentsId) => {
     const currentIndex = checkedContinents.indexOf(continentsId);
 
@@ -16,14 +12,9 @@ function CheckBox({continents, checkedContinents, onFilters}) {
     }
     onFilters(newChecked);
   };
-<<<<<<< HEAD
-  return (
-    <div className="grid grid-cols-3 gap-4 sm:grid-cols-5">
-=======
 
   return (
-    <div className="grid grid-cols-3 gap-4 sm:grid-cols-5 ">
->>>>>>> 056b5e512fc545880e5ef2cca9ff5ecb1a61c6fa
+    <div className="grid grid-cols-3 gap-4 sm:grid-cols-5">
       {continents?.map((continents) => {
         return (
           <div className="bg-blue-100 px-2 py-4" key={continents._id}>
@@ -37,13 +28,10 @@ function CheckBox({continents, checkedContinents, onFilters}) {
                 checkedContinents.indexOf(continents._id) === -1 ? false : true
               }
             />
-<<<<<<< HEAD
+
             <label htmlFor={continents._id} />
             {continents.name}
             <label />
-=======
-            <label htmlFor={continents._id}> {continents.name}</label>
->>>>>>> 056b5e512fc545880e5ef2cca9ff5ecb1a61c6fa
           </div>
         );
       })}

@@ -5,11 +5,8 @@ const continents = [
   },
   {
     _id: 2,
-<<<<<<< HEAD
+
     name: "pusan",
-=======
-    name: "busan",
->>>>>>> 056b5e512fc545880e5ef2cca9ff5ecb1a61c6fa
   },
   {
     _id: 3,
@@ -58,8 +55,4 @@ const prices = [
   },
 ];
 
-<<<<<<< HEAD
 export { continents, prices };
-=======
-export {continents, prices};
->>>>>>> 056b5e512fc545880e5ef2cca9ff5ecb1a61c6fa
